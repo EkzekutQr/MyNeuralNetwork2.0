@@ -11,6 +11,7 @@ public class BotBase : MonoBehaviour,
     public float EnergyGrowingCount { get; private set; }
 
     public float EnergyGrowingDelay { get; private set; }
+
     public float ReproducingEnergyCost { get; private set; }
 
     public NN NN { get; private set; }
